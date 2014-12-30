@@ -23,7 +23,7 @@ setup(
     name="pandoc_circles",
     version="0.1.0",
     license="BSD",
-    description=""A python package containing pandoc filters I have written bc I want to have sorted definition lists and other non-supported (at the time at least) behaviors for pandoc documents."",
+    description="A python package containing pandoc filters I have written bc I want to have sorted definition lists and other non-supported (at the time at least) behaviors for pandoc documents.",
     long_description="%s\n%s" % (read("README.rst"), re.sub(":obj:`~?(.*?)`", r"``\1``", read("CHANGELOG.rst"))),
     author="Gus Dunn",
     author_email="wadunn83@gmail.com",
