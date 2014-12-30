@@ -53,9 +53,11 @@ setup(
     ],
     keywords=[
         # eg: "keyword1", "keyword2", "keyword3",
+        "pandoc"
     ],
     install_requires=[
         # eg: "aspectlib==1.1.1", "six>=1.7",
+        "pandocfilters == 1.2.3",
     ],
     extras_require={
         # eg: "rst": ["docutils>=0.11"],
